@@ -53,7 +53,7 @@ def bisseção(f):
     a = float(input('Insira um valor para o intervalo inferior: '))
     b = float(input('Insira um valor para o intervalo supeior: '))
     e = float(input('Insira um valor para a precisão: '))
-    iteração = 1
+    iteração = 0
 
     while math.fabs(b - a) > e:
 
